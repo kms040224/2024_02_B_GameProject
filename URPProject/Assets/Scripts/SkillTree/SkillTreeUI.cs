@@ -17,32 +17,32 @@ public class SkillTreeUI : MonoBehaviour
 
     void Start()
     {
-        InitializeSkillTree();
+        //InitializeSkillTree();
         CreateSkillTreeUI();
         UpdateSkillPointsUI();
     }
 
 
-    void InitializeSkillTree()
-    {
-        skillTree = new SkillTree();
+    //void InitializeSkillTree()
+    //{
+    //    skillTree = new SkillTree();
 
-        skillTree.AddNode(new SkillNode("fireball1", "Fireball 1",
-            new Skill<ISKillTarget, DamageEffect>("Fireball1", new DamageEffect(20),
-            new Vector2(0, 0), "Fireball", 1 , new List<string> { "Fireball1"}));
+    //    skillTree.AddNode(new SkillNode("fireball1", "Fireball 1",
+    //        new Skill<ISKillTarget, DamageEffect>("Fireball1", new DamageEffect(20),
+    //        new Vector2(0, 0), "Fireball", 1 , new List<string> { "Fireball1"}));
 
-        skillTree.AddNode(new SkillNode("fireball1", "Fireball 1",
-           new Skill<ISKillTarget, DamageEffect>("Fireball1", new DamageEffect(20),
-           new Vector2(0, 0), "Fireball", 1, new List<string> { "Fireball1" }));
+    //    skillTree.AddNode(new SkillNode("fireball1", "Fireball 1",
+    //       new Skill<ISKillTarget, DamageEffect>("Fireball1", new DamageEffect(20),
+    //       new Vector2(0, 0), "Fireball", 1, new List<string> { "Fireball1" }));
 
-        skillTree.AddNode(new SkillNode("fireball1", "Fireball 1",
-           new Skill<ISKillTarget, DamageEffect>("Fireball1", new DamageEffect(20),
-           new Vector2(0, 0), "Fireball", 1, new List<string> { "Fireball1" }));
+    //    skillTree.AddNode(new SkillNode("fireball1", "Fireball 1",
+    //       new Skill<ISKillTarget, DamageEffect>("Fireball1", new DamageEffect(20),
+    //       new Vector2(0, 0), "Fireball", 1, new List<string> { "Fireball1" }));
 
-        skillTree.AddNode(new SkillNode("fireball1", "Fireball 1",
-           new Skill<ISKillTarget, DamageEffect>("Fireball1", new DamageEffect(20),
-           new Vector2(0, 0), "Fireball", 1, new List<string> { "Fireball1" }));
-    }
+    //    skillTree.AddNode(new SkillNode("fireball1", "Fireball 1",
+    //       new Skill<ISKillTarget, DamageEffect>("Fireball1", new DamageEffect(20),
+    //       new Vector2(0, 0), "Fireball", 1, new List<string> { "Fireball1" }));
+    //}
 
 
     void CreateSkillTreeUI()
